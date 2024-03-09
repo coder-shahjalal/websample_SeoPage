@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              poppins: ["Poppins", "sans-serif"],
+            },
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body class="font-poppins">
+    <div class="bg-[#020e28] py-4">
+      <div class="container mx-auto">
+        <div
+          class="flex justify-center items-center gap-3 text-[16px] min-h-[70px]"
+        >
+          <div class="flex gap-2 border-[#c3c4c6] border-r-[1px] pr-4">
+            <img src="./img/3.png" /><span class="text-white"
+              >786-842-0320</span
+            >
+          </div>
+          <div class="flex gap-2">
+            <img src="./img/2.png" /><span class="text-white"
+              >sales@anncarequipment.com</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container mx-auto">
+        <div class="flex justify-between min-h-[104px]">
+          <div><img src="./img/logo.png" /></div>
+          <div class="flex justify-center items-center gap-10">
+            <ul
+              class="flex justify-center text-[#020E28] text-[16px] font-medium gap-6"
+            >
+              <li><a href="#" class="text-[#fdbe01]">HOME</a></li>
+              <li><a href="#" class="hover:text-[#fdbe01]">ABOUT</a></li>
+              <li><a href="#" class="hover:text-[#fdbe01]">BRANDS</a></li>
+              <li><a href="#" class="hover:text-[#fdbe01]">PARTS</a></li>
+              <li><a href="#" class="hover:text-[#fdbe01]">EQUIPMENT</a></li>
+              <li><a href="#" class="hover:text-[#fdbe01]">CONTACT</a></li>
+            </ul>
+            <button
+              class="flex justify-center items-center gap-2 bg-gradient-to-r from-yellow-400 to-blue-600 rounded-full px-3 py-2 text-white"
+            >
+              <img src="./img/1.png" />Need Estamate?
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="bg-[url('./img/Rectangle4copy2.png')] bg-no-repeat bg-center min-h-[720px] bg-cover"
+    >
+      <div class="container mx-auto">
+        <div class="flex justify-between items-center pt-4 pb-4">
+          <div>
+            <h2
+              class="text-[64px] font-semibold leading-[76.8px] text-white uppercase"
+            >
+              <span class="text-[#fcbe01]">Grow your</span> <br />business
+              <span class="text-[#007efe]"
+                >with<br />
+                Anncare</span
+              >
+            </h2>
+            <p class="text-white text-[29px] leading-[34.8px] uppercase">
+              High quality heavy Equipment <br />
+              spare parts supplier
+            </p>
+          </div>
+          <div class="flex-row">
+            <div>
+              <img class="w-[100%]" src="./img/Group6.png" />
+            </div>
+            <!-- ------------------------------------------------------------------------ -->
+            <div>
+              <div class="flex justify-center mt-[20px]">
+                <nav aria-label="Pagination">
+                  <ul class="flex space-x-2">
+                    <!-- Previous Page Link -->
+
+                    <!-- Pagination Elements -->
+                    <li>
+                      <a
+                        href="#"
+                        class="border-4 border-white rounded-full p-[1px] w-[10px] h-[1px]"
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="bg-white border text-gray-500 px-4 py-2"
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="bg-white border text-gray-500 px-4 py-2"
+                      ></a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
